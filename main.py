@@ -10,7 +10,7 @@ UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Replace with your actual API key
-client = genai.Client(api_key="AIzaSyD3o9IA6UuWnnTNEW80SMr-Gs9DOgvVjCk")
+client = genai.Client(api_key="API_KEY")
 
 # Updated Schema to include Recommendations and ATS Score
 class ResumeAnalysis(BaseModel):
